@@ -27,7 +27,7 @@ import { ContactComponent } from './contact/contact.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'products', component: ProductsComponent },
       { path: 'retailers', component: RetailersComponent },
-      { path: 'contact', component: ContactComponent },
+      { path: 'contact', component: ContactComponent }
     ])
   ],
   providers: [],
