@@ -1,0 +1,18 @@
+.well-beings-home-header {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.header-wrapper {
+  margin-top: 50px;
+  margin-left: auto;
+  padding-left: 29px;
+}
+
+.overlay-wrapper {
+  margin-top: 100px;
+}
+
+.overlay-opacity {
+  opacity: 0.9;
+}

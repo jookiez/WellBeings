@@ -1,0 +1,49 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+.well-beings-icon {
+  background-image: url('../../assets/logo.png');
+}
+
+.nav-link.well-beings-nav-text {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link.well-beings-margin {
+  margin-right: 40px;
+}
+
+
+.nav-link.well-beings-nav-text:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.nav-link.well-beings-nav-text:focus {
+  color: #FFFFFF;
+}
+
+.well-beings-nav-margin {
+  margin-right: 50px;
+}
+
