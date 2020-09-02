@@ -1,1 +1,30 @@
-CONTACT
+<div class="contact-wrapper well-beings-font">
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="contact-header">Contact</h1>
+    </div>
+  </div>
+
+  <form *ngIf="!submitted">
+    <div class="form-group">
+      <label for="inputName">Name:</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Enter name" />
+    </div>
+    <div class="form-group">
+      <label for="inputEmail">Email:</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" />
+    </div>
+    <div class="form-group">
+      <label for="inputQuestion">Question:</label>
+      <textarea rows="4" cols="50" id="inputQuestion" class="form-control" placeholder="Enter Question"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary well-beings-button" (click)="submitForm()">Submit</button>
+  </form>
+
+  <div *ngIf="submitted" class="well-beings-font row">
+    <div class="text-reposition">
+      Thank you for your submission, we'll get back to you ASAP!
+    </div>
+  </div>
+
+</div>
